@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: nginx 
-  serviceName: web
+  serviceName: web    #indica como se va a llamar cada uno de los pods para darle un orden y un nombramiento especifico
   replicas: 3
   template:
     metadata:
