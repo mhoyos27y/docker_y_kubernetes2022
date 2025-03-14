@@ -8,7 +8,7 @@ spec:
   containers:
   - name: liveness
     image: nginx:latest
-    livenessProbe:
+    livenessProbe: #determina si el pod esta vivo o sano
       exec:
         command:
         - curl
