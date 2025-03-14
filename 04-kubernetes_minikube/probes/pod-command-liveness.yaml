@@ -13,5 +13,5 @@ spec:
         command:
         - curl
         - localhost
-      initialDelaySeconds: 20
-      periodSeconds: 5
+      initialDelaySeconds: 20 #espera n segundos para empezar a realizar el chequeo
+      periodSeconds: 5 # realiza el chequeo cada n segundos
