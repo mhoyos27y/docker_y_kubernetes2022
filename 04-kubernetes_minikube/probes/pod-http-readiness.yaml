@@ -6,7 +6,7 @@ spec:
   containers:
   - name: readiness
     image: nginx:latest
-    readinessProbe:
+    readinessProbe: #determina si el pod esta listo para recibir trafico
       httpGet:
         path: /
         port: 80
